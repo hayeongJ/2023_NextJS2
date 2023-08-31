@@ -5,7 +5,7 @@ const nextConfig = {
     async rewrites(){
         return[{
             source : "/api/:path*",
-            destination : "http://makeup-api.herokuapp.com/api/:path*",
+            destination : "http://makeup-api.herokuapp.com/api/:path*"
         }];
     }
 }
